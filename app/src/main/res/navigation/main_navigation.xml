@@ -8,18 +8,24 @@
         android:id="@+id/AFragment"
         android:name="com.numero.navigation_example.AFragment"
         android:label="fragment_a"
-        tools:layout="@layout/fragment_a" />
+        tools:layout="@layout/fragment_a" >
+
+    </fragment>
 
     <fragment
         android:id="@+id/BFragment"
         android:name="com.numero.navigation_example.BFragment"
         android:label="fragment_b"
-        tools:layout="@layout/fragment_b" />
+        tools:layout="@layout/fragment_b" >
+
+    </fragment>
 
     <fragment
         android:id="@+id/CFragment"
         android:name="com.numero.navigation_example.CFragment"
         android:label="fragment_c"
-        tools:layout="@layout/fragment_c" />
-    
+        tools:layout="@layout/fragment_c" >
+
+    </fragment>
+
 </navigation>
